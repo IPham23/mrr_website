@@ -2,7 +2,7 @@
 body{
     overflow-x: hidden !important;
 }
-.wrapper{
+.home.wrapper{
     max-width: 1600px !important;
 }
 .details{
