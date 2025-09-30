@@ -1,5 +1,30 @@
 @import "../styles.css";
 
+/* ENTRANCE ANIMATIONS*/
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*
 .mainboard.wrapper{ 
     width: 100%;
     margin: 0;
@@ -11,6 +36,7 @@
 }
 
 /*button style*/
+/*
 .kidsBtn{
     position: absolute;
     font-size: 48px;
@@ -36,6 +62,7 @@
 
 
 /* SECTION LAYOUT */
+/*
 .top{
     margin-left: 80px;
 }
@@ -61,7 +88,7 @@
     margin-top: -50px;
 }
 /*==================================*/
-
+/*
 .kidsGrid, .teensGrid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -117,7 +144,6 @@
 
 .teensTextLeft, .teensTextRight{
     padding-top: 50px;
-    display: none ;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     height: 400px;
@@ -131,6 +157,7 @@
 
 /*TEXT IMAGES POSITIONING */
 /*kids left*/
+/*
 .kidsGrid .kidsTextLeft img:nth-child(1){
     transform: translateX(70px);
 }
@@ -151,6 +178,7 @@
 }
 
 /*kids right*/
+/*
 .kidsGrid .kidsTextRight img:nth-child(1){
     transform: translateX(30px);
 }
@@ -171,6 +199,7 @@
 }
 
 /*teens left*/
+/*
 .teensGrid .teensTextLeft img:nth-child(1){
     transform: translateX(-10px);
 }
@@ -191,6 +220,7 @@
 }
 
 /*teens right*/
+/*
 .teensGrid .teensTextRight img:nth-child(1){
     transform: translateX(70px);
 }
@@ -210,29 +240,8 @@
     transform: translateX(-80px);
 }
 
-/* ENTRANCE ANIMATIONS*/
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-80px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(80px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
+/*
 .kidsGrid .photoWrapper {
   opacity: 0;
   animation: fadeInDown 0.8s ease-out forwards;
