@@ -10,6 +10,14 @@ const models = [
   "/src/assets/Artboard 6.png",
   "/src/assets/Artboard 7.png",
   "/src/assets/Artboard 8.png",
+  "/src/assets/Artboard 9.png",
+  "/src/assets/Artboard 10.png",
+  "/src/assets/Artboard 11.png",
+  "/src/assets/Artboard 12.png",
+  "/src/assets/Artboard 13.png",
+  "/src/assets/Artboard 14.png",
+  "/src/assets/Artboard 15.png",
+  "/src/assets/Artboard 16.png",
 ];
 
 const Models: React.FC = () => {
