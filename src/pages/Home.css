@@ -1,9 +1,11 @@
 /*LOCAL STYLES FOR HOME PAGE*/
+
 body{
     overflow-x: hidden !important;
 }
 .home.wrapper{
     max-width: 1600px !important;
+    
 }
 .details{
     width: 50%;
