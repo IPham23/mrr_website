@@ -1,9 +1,11 @@
-/*LOCAL STYLES FOR HOME PAGE*/
+/*LOCAL STYLES FOR HOME PAGE
+
 body{
     overflow-x: hidden !important;
 }
-.wrapper{
+.home.wrapper{
     max-width: 1600px !important;
+    
 }
 .details{
     width: 50%;
@@ -54,6 +56,7 @@ body{
     transform: translateY(-80%);
     padding: 0 80px;
 }
+
 .brandLogos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

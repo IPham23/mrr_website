@@ -1,9 +1,11 @@
-.wrapper{
+.infocus.wrapper{
     width: 100%;
+    padding: 100px 0;
 }
 
 .infocusImg{
-    padding: 1rem 100px;
+    margin-left: 100px;
+    width: 250px;
 }
 .runwayModels{
     display: flex;
@@ -144,10 +146,20 @@
 
 .row1 .runwayModelsItem img{
     transform: skewX(20deg) scale(1.8) translateY(80px) translateX(0px);
+    transition: transform 0.4s ease;
 }
 
 .row2 .runwayModelsItem img{
     transform: skewX(20deg) scale(1.8) translateY(70px) translateX(0px);
+    transition: transform 0.4s ease;
+}
+
+.row1 .runwayModelsItem img:hover{
+    transform: skewX(20deg) scale(1.8) translateY(80px) translateX(-10px);
+}
+
+.row2 .runwayModelsItem img:hover{
+    transform: skewX(20deg) scale(1.8) translateY(70px) translateX(-10px);
 }
 
 /*STYLES FOR PERFORMERS SECTION*/
