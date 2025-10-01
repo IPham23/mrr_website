@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
 
 :root {
   --bg: #ffffff;
@@ -36,13 +43,6 @@ a {
   padding: 0 10px;
 }
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0;
-}
 
 .nav {
   display: flex;
@@ -132,17 +132,6 @@ a {
 }
 /*==========================================*/
 
-h1 {
-  font-size: 2rem;
-  margin: 0 0 0.75rem;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 0 0 1rem;
-  color: var(--text);
-}
 
 .muted {
   color: var(--muted);
@@ -165,24 +154,8 @@ h2 {
   border-radius: 0.6rem;
 }
 
-.grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-}
 
-.card {
-  background: var(--panel);
-  border: 1px solid #21222a;
-  border-radius: 0.8rem;
-  padding: 1rem;
-}
 
-.row {
-  display: flex;
-  gap: 0.6rem;
-  margin-top: 0.6rem;
-}
 
 .footer {
   display: grid;
@@ -217,11 +190,3 @@ h2 {
   flex-direction: column;
   align-items: end;
 }
-
-
-
-
-
-
-
-
