@@ -1,6 +1,7 @@
+import "../styles.css"
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer sm:px-[20px] sm:py-4 lg:px-[60px] lg:py-4  2xl:px-[180px] 2xl:py-4">
             <section className="footerDetails">
                 <p>MANILA RUNWAY REPUBLIC {new Date().getFullYear()}</p>
                 <p>MANILA, PHILIPPINES</p>
