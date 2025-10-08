@@ -1,78 +1,59 @@
-import { useState } from "react";
-import "./ModelsGallery.css"; // Import custom CSS
+import "./ModelsGallery.css";
 
-const models = [
-  "/src/assets/Artboard 1.png",
-  "/src/assets/Artboard 2.png",
-  "/src/assets/Artboard 3.png",
-  "/src/assets/Artboard 4.png",
-  "/src/assets/Artboard 5.png",
-  "/src/assets/Artboard 6.png",
-  "/src/assets/Artboard 7.png",
-  "/src/assets/Artboard 8.png",
-  "/src/assets/Artboard 9.png",
-  "/src/assets/Artboard 10.png",
-  "/src/assets/Artboard 11.png",
-  "/src/assets/Artboard 12.png",
-  "/src/assets/Artboard 13.png",
-  "/src/assets/Artboard 14.png",
-  "/src/assets/Artboard 15.png",
-  "/src/assets/Artboard 16.png",
-];
+const Models = () => {
+    return (
+        <div className="modelsWrapper">
+            <img className="modelsImg" src="/src/assets/models.png" alt="" />
 
-const Models: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+            <section className="textjoinus">
+                <h1>Join Us Today!</h1>
+                <h2>
+                    Whether you are an aspiring model looking to break into the industry or a parent seeking the best opportunities for your child, Manila Runway Republic is the perfect place to start. Join us and be a part of a vibrant community that celebrates youth, talent, and fashion.
+                </h2>
+                <div className="mrrModelsGrid">
+                    {/* Row 1 */}
+                    <div className="mrrRow">
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 1.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 2.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 3.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 4.png" alt="" /></div>
+                    </div>
 
-  return (
-    <section className="py-12 bg-white text-center">
-      {/* Heading */}
-      <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
-        <p className="text-gray-600">
-          Whether you are an aspiring model looking to break into the industry
-          or a parent seeking the best opportunities for your child, Manila
-          Runway Republic is the perfect place to start. Join us and be a part
-          of a vibrant community that celebrates youth, talent, and fashion.
-        </p>
-      </div>
+                    {/* Row 2 */}
+                    <div className="mrrRow">
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 5.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 6.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 7.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 8.png" alt="" /></div>
+                    </div>
 
-      {/* Image Grid */}
-      <div className="gallery-grid">
-        {models.map((img, idx) => (
-          <div
-            key={idx}
-            className={`gallery-item item-${idx + 1}`}
-            onClick={() => setSelectedImage(img)}
-          >
-            <div className="slant-wrapper">
-              <img src={img} alt={`Model ${idx + 1}`} />
-            </div>
-          </div>
-        ))}
-      </div>
+                    {/* Row 3 */}
+                    <div className="mrrRow">
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 9.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 10.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 11.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 12.png" alt="" /></div>
+                    </div>
 
-      {/* Modal */}
-      {selectedImage && (
-        <div
-          className="modal-overlay"
-          onClick={() => setSelectedImage(null)}
-          role="button"
-          aria-label="close modal"
-        >
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <img src={selectedImage} alt="Selected model" />
-            <button
-              className="close-btn"
-              onClick={() => setSelectedImage(null)}
-              aria-label="close"
-            >
-              ✕
-            </button>
-          </div>
+                    {/* Row 4 */}
+                    <div className="mrrRow">
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 13.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 14.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 15.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 16.png" alt="" /></div>
+                    </div>
+
+                    {/* Row 5 */}
+                    <div className="mrrRow">
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 17.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 18.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 19.png" alt="" /></div>
+                        <div className="mrrModelCard"><img src="./src/assets/Artboard 20.png" alt="" /></div>
+                    </div>
+                </div>
+            </section>
         </div>
-      )}
-    </section>
-  );
+    );
 };
 
 export default Models;
