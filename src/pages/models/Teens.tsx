@@ -2,7 +2,7 @@ const Teens = () => {
   return (
     <>
     <section>
-      <h1>Teens</h1>
+        <p>Teens</p>
     </section>
     </>
   );
