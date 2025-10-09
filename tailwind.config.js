@@ -1,6 +1,6 @@
-// tailwind.config.js
+/* tailwind.config.js
 module.exports = {
   theme: {
-  container: false, // completely disable the container utility
+    container: false, // completely disable the container utility
   },
 }
