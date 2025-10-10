@@ -5,7 +5,7 @@ const Kids = () => {
       {/* Main header image */}
       <img
         className="ml-24 w-[250px] max-md:ml-5 max-md:w-[200px]"
-        src="/src/assets/TITLE-THAI.png"
+        src="/src/assets/kids.png"
         alt="Thai Models Title"
       />
 
@@ -21,7 +21,7 @@ const Kids = () => {
               <img
                 src={`/src/assets/Artboard ${n}.png`}
                 alt={`Thai Model ${n}`}
-                className="absolute top-0 left-0 w-full h-full object-cover transform skew-x-[20deg] scale-[1.5] translate-y-[10%] transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.4] hover:translate-y-[12%]"
+                className="absolute top-0 left-0 w-full h-full object-cover transform skew-x-[20deg] scale-[1.6] translate-y-[10%] transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.4] hover:translate-y-[3%]"
               />
             </div>
           ))}

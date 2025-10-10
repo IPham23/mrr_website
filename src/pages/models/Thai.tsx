@@ -22,7 +22,7 @@ const Thai = () => {
               <img
                 src={`/src/assets/Artboard ${n}.png`}
                 alt={`Thai Model ${n}`}
-                className="absolute top-0 left-0 w-full h-full object-cover transform skew-x-[20deg] scale-[1.5] translate-y-[15%] transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.4] hover:translate-y-[2%]"
+                className="absolute top-0 left-0 w-full h-full object-cover transform skew-x-[20deg] scale-[1.6] translate-y-[15%] transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.4] hover:translate-y-[3%]"
               />
             </div>
           ))}
