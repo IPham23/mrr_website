@@ -1,5 +1,4 @@
-import React from "react";
-import "./GRWMRR.css";
+
 
 import grwmrr1 from "../assets/grwmrr1.png";
 import grwmrr2 from "../assets/grwmrr2.png";
@@ -17,108 +16,102 @@ import rising8 from "../assets/rising8.png";
 const GRWMRR: React.FC = () => {
   const images = [grwmrr1, grwmrr2, grwmrr3, grwmrr4];
 
+  const groups = [
+    { caption: "Young Designers in Action", imgs: [rising1, rising2] },
+    { caption: "Future Runway Models", imgs: [rising3, rising4] },
+    { caption: "Creative Stylists", imgs: [rising5, rising6] },
+    { caption: "Rising Icons", imgs: [rising7, rising8] },
+  ];
+
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {/* ----------------- */}
-      {/* First Section     */}
+      {/* First Section */}
       {/* ----------------- */}
+      <div className="w-full my-8">
+        <div className="max-w-[40%] mx-auto">
+          <img
+            src="/src/assets/mrr.png"
+            alt="mrr"
+            className="w-full h-auto block"
+          />
+        </div>
+      </div>
 
-      <div className="mrr-wrapper">
-    <div className="mrr">
-      <img src="/src/assets/mrr.png" alt="mrr" />
-    </div>
-  </div>
-  
-      <div className="grwmrr-container first-section">
-        <h2 className="grwmrr-subtitle">Rehearsals & Coaching Sessions</h2>
+      <div className="bg-white max-w-[1200px] mx-auto px-8 py-16 text-center">
+        <h2 className="text-xl text-gray-600 mb-8 font-medium">
+          Rehearsals & Coaching Sessions
+        </h2>
 
-        <div className="grwmrr-grid">
+        {/* Flexbox layout for first image section */}
+        <div className="flex flex-wrap justify-center items-center gap-12">
           {images.map((img, index) => (
-            <div className="grwmrr-item" key={index}>
-              <img src={img} alt={`grwmrr-${index}`} />
+            <div
+              key={index}
+              className="w-full md:w-[45%] transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={img}
+                alt={`grwmrr-${index}`}
+                className="rounded-lg shadow-md w-full max-w-[600px] mx-auto"
+              />
             </div>
           ))}
         </div>
       </div>
 
       {/* ----------------- */}
-      {/* Second Section    */}
+      {/* Second Section */}
       {/* ----------------- */}
-      <div className="extra-section second-section">
-        <div className="extra-content">
-          <h1 className="extra-title">Rising Stars</h1>
-          <h2 className="extra-subtitle">
+      <div className="w-screen bg-gray-300 py-24 overflow-hidden">
+        <div className="max-w-[1200px] mx-auto px-8">
+          <h1 className="text-3xl font-bold text-center mb-4">Rising Stars</h1>
+          <h2 className="text-xl text-gray-600 text-center mb-12">
             Shaping the Future of Fashion from a Young Age
           </h2>
 
-          {/* Group 1 */}
-          <div className="extra-group">
-            <div className="extra-caption">Young Designers in Action</div>
-            <div className="extra-images">
-              <div className="extra-item">
-                <img src={rising1} alt="rising-1" />
+          {groups.map((group, index) => (
+            <div key={index} className="mb-20 text-left">
+              <div className="text-lg font-semibold text-gray-800 mb-8">
+                {group.caption}
               </div>
-              <div className="extra-item">
-                <img src={rising2} alt="rising-2" />
-              </div>
-            </div>
-          </div>
 
-          {/* Group 2 */}
-          <div className="extra-group">
-            <div className="extra-caption">Future Runway Models</div>
-            <div className="extra-images">
-              <div className="extra-item">
-                <img src={rising3} alt="rising-3" />
-              </div>
-              <div className="extra-item">
-                <img src={rising4} alt="rising-4" />
-              </div>
-            </div>
-          </div>
-
-          {/* Group 3 */}
-          <div className="extra-group">
-            <div className="extra-caption">Creative Stylists</div>
-            <div className="extra-images">
-              <div className="extra-item">
-                <img src={rising5} alt="rising-5" />
-              </div>
-              <div className="extra-item">
-                <img src={rising6} alt="rising-6" />
+              {/* Flexbox layout for image groups */}
+              <div className="flex flex-wrap justify-center items-start gap-20 mb-16">
+                {group.imgs.map((img, i) => (
+                  <div
+                    key={i}
+                    className="w-full md:w-[45%] transition-transform duration-300 hover:scale-105"
+                  >
+                    <img
+                      src={img}
+                      alt={`rising-${index}-${i}`}
+                      className="rounded-lg w-full max-w-[500px] mx-auto"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
-
-          {/* Group 4 */}
-          <div className="extra-group">
-            <div className="extra-caption">Rising Icons</div>
-            <div className="extra-images">
-              <div className="extra-item">
-                <img src={rising7} alt="rising-7" />
-              </div>
-              <div className="extra-item">
-                <img src={rising8} alt="rising-8" />
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-      <section className="hero-section">
-  <p className="hero-text">
-    Manila Runway Republic is where your journey begins.
-  </p>
-  <p className="hero-text">
-    Join us as we celebrate youth, talent, and fashion.
-  </p>
 
-  {/* First button */}
-  <button className="hero-btn dark-btn">Contact Us </button>
+      {/* ----------------- */}
+      {/* Hero Section */}
+      {/* ----------------- */}
+      <section className="text-center py-12 px-8">
+        <p className="text-3xl text-gray-700 mb-4 font-serif">
+          Manila Runway Republic is where your journey begins.
+        </p>
+        <p className="text-3xl text-gray-700 mb-8 font-serif">
+          Join us as we celebrate youth, talent, and fashion.
+        </p>
 
-  
-</section>
+        <button className="bg-gray-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-gray-900">
+          Contact Us
+        </button>
+      </section>
     </div>
-    
   );
 };
 
