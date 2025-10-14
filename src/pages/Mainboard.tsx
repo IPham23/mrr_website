@@ -49,10 +49,10 @@ const Mainboard = () => {
                     <div className="sm:w-[100px] sm:flex-shrink-0 md:w-[10%] sm:h-[300px]  md:max-lg:pb-[5%] md:max-lg:h-[250px] xl:max-2xl:right-5  lg:max-xl:h-[400px] xl:h-[600px] grid grid-rows-6 h-[400px] z-[-1] right-0">
                         <img className="sm:w-20 sm:max-md:translate-x-[70px] md:max-lg:translate-x-[90px] lg:max-xl:w-25 lg:max-xl:translate-x-[40px] xl:w-40 xl:translate-x-[230px]" src="./src/assets/kidsText.png" alt="" />
                         <img className="sm:w-20 sm:max-md:translate-x-[50px] md:max-lg:translate-x-[70px] lg:max-xl:w-25 lg:max-xl:translate-x-[20px] xl:w-40 xl:translate-x-[180px]" src="./src/assets/kidsText.png" alt="" />
-                        <img className="sm:w-20 sm:max-md:translate-x-[30px] md:max-lg:translate-x-[60px] lg:max-xl:w-25 lg:max-xl:translate-x-[0px] xl:w-40 xl:translate-x-[130px]" src="./src/assets/kidsText.png" alt="" />
-                        <img className="sm:w-20 sm:max-md:translate-x-[10px] md:max-lg:translate-x-[40px] lg:max-xl:w-25 lg:max-xl:translate-x-[-20px] xl:w-40 xl:translate-x-[80px]" src="./src/assets/kidsText.png" alt="" />
-                        <img className="sm:w-20 sm:max-md:translate-x-[-10px] md:max-lg:translate-x-[20px] lg:max-xl:w-25 lg:max-xl:translate-x-[-40px] xl:w-40 xl:translate-x-[30px]" src="./src/assets/kidsText.png" alt="" />
-                        <img className="sm:w-20 sm:max-md:translate-x-[-30px] md:max-lg:translate-x-[0px] lg:max-xl:w-25 lg:max-xl:translate-x-[-60px] xl:w-40 xl:translate-x-[-20px]" src="./src/assets/kidsText.png" alt="" />
+                        <img className="sm:w-20 sm:max-md:translate-x-[30px] md:max-lg:translate-x-[50px] lg:max-xl:w-25 lg:max-xl:translate-x-[0px] xl:w-40 xl:translate-x-[130px]" src="./src/assets/kidsText.png" alt="" />
+                        <img className="sm:w-20 sm:max-md:translate-x-[10px] md:max-lg:translate-x-[30px] lg:max-xl:w-25 lg:max-xl:translate-x-[-20px] xl:w-40 xl:translate-x-[80px]" src="./src/assets/kidsText.png" alt="" />
+                        <img className="sm:w-20 sm:max-md:translate-x-[-10px] md:max-lg:translate-x-[10px] lg:max-xl:w-25 lg:max-xl:translate-x-[-40px] xl:w-40 xl:translate-x-[30px]" src="./src/assets/kidsText.png" alt="" />
+                        <img className="sm:w-20 sm:max-md:translate-x-[-30px] md:max-lg:translate-x-[-10px] lg:max-xl:w-25 lg:max-xl:translate-x-[-60px] xl:w-40 xl:translate-x-[-20px]" src="./src/assets/kidsText.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -104,12 +104,12 @@ const Mainboard = () => {
                     
                     {/* Teens Text Right */}
                     <div className="sm:w-[100px] sm:flex-shrink-0 md:w-[10%] sm:h-[300px] md:max-lg:h-[250px] lg:max-xl:right-5 xl:max-2xl:right-10 lg:max-xl:h-[400px] xl:h-[600px] pt-[50px] grid grid-rows-6 h-[400px] z-[-1] right-0">
-                        <img className="sm:w-25 sm:max-md:translate-x-[50px]  lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[90px] w-45 xl:translate-x-[190px]" src="./src/assets/teensText.png" alt="" />
-                        <img className="sm:w-25 sm:max-md:translate-x-[30px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[70px] w-45 xl:translate-x-[140px]" src="./src/assets/teensText.png" alt="" />
-                        <img className="sm:w-25 sm:max-md:translate-x-[10px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[50px] w-45 xl:translate-x-[90px]" src="./src/assets/teensText.png" alt="" />
-                        <img className="sm:w-25 sm:max-md:translate-x-[-10px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[30px] w-45 xl:translate-x-[40px]" src="./src/assets/teensText.png" alt="" />
-                        <img className="sm:w-25 sm:max-md:translate-x-[-30px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[10px] w-45 xl:translate-x-[-10px]" src="./src/assets/teensText.png" alt="" />
-                        <img className="sm:w-25 sm:max-md:translate-x-[-50px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[-10px] w-45 xl:translate-x-[-60px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[50px] md:max-lg:translate-x-[80px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[90px] w-45 xl:translate-x-[190px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[30px] md:max-lg:translate-x-[60px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[70px] w-45 xl:translate-x-[140px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[10px] md:max-lg:translate-x-[40px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[50px] w-45 xl:translate-x-[90px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[-10px] md:max-lg:translate-x-[20px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[30px] w-45 xl:translate-x-[40px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[-30px] md:max-lg:translate-x-[0px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[10px] w-45 xl:translate-x-[-10px]" src="./src/assets/teensText.png" alt="" />
+                        <img className="sm:w-25 sm:max-md:translate-x-[-50px] md:max-lg:translate-x-[-20px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[-10px] w-45 xl:translate-x-[-60px]" src="./src/assets/teensText.png" alt="" />
                     </div>
                 </div>
             </section>
