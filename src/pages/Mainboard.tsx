@@ -46,7 +46,7 @@ const Mainboard = () => {
                     </div>
 
                     {/* Kids Text Right */}
-                    <div className="sm:w-[100px] sm:flex-shrink-0 md:w-[10%] sm:h-[300px]  md:max-lg:pb-[5%] md:max-lg:h-[250px] xl:max-2xl:right-5  lg:max-xl:h-[400px] xl:h-[600px] grid grid-rows-6 h-[400px] z-[-1] right-0">
+                    <div className="sm:w-[100px] sm:flex-shrink-0 md:w-[10%] sm:h-[300px]  md:max-lg:pb-[5%] md:max-lg:h-[250px] xl:max-2xl:right-5 lg:max-xl:ml-[60px] lg:max-xl:h-[400px] xl:h-[600px] grid grid-rows-6 h-[400px] z-[-1] right-0">
                         <img className="sm:w-20 sm:max-md:translate-x-[70px] md:max-lg:translate-x-[90px] lg:max-xl:w-25 lg:max-xl:translate-x-[40px] xl:w-40 xl:translate-x-[230px]" src="./src/assets/kidsText.png" alt="" />
                         <img className="sm:w-20 sm:max-md:translate-x-[50px] md:max-lg:translate-x-[70px] lg:max-xl:w-25 lg:max-xl:translate-x-[20px] xl:w-40 xl:translate-x-[180px]" src="./src/assets/kidsText.png" alt="" />
                         <img className="sm:w-20 sm:max-md:translate-x-[30px] md:max-lg:translate-x-[50px] lg:max-xl:w-25 lg:max-xl:translate-x-[0px] xl:w-40 xl:translate-x-[130px]" src="./src/assets/kidsText.png" alt="" />
@@ -58,7 +58,7 @@ const Mainboard = () => {
             </section>
             {/* CENTER SECTION */}
             <section className="w-full bg-[var(--accent)] text-[var(--bg)] text-center m-0 mt-[-50px] top-1/2 z-[1000]">
-                <h1 className="sm:text-4xl sm:py-5  md:text-[40px] lg:max-2xl:text-[76px] font-medium">MANILA RUNWAY REPUBLIC MODELS</h1>
+                <h1 className="sm:text-4xl sm:py-5  md:text-[40px] lg:max-2xl:text-[76px] 2xl:text-[100px] font-medium">MANILA RUNWAY REPUBLIC MODELS</h1>
             </section>
 
             {/* BOTTOM SECTION - TEENS */}
