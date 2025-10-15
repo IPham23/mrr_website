@@ -60,7 +60,9 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       {isMobileOpen && (
-        <div className="lg:hidden flex flex-col gap-4 absolute top-full left-0 w-full bg-[var(--bg)] p-6 shadow-lg z-9999">
+        <div className="lg:hidden flex flex-col gap-4 fixed top-0 right-0 h-full w-[70%] bg-[var(--bg)] pt-20 p-6 shadow-lg z-9999">
+          {/* Close button */}
+          <button className="absolute top-6 right-6 text-4xl" onClick={handleClose}>×</button>
           <NavLink to="/mainboard" end onClick={handleClose}>MAIN BOARD</NavLink>
           <NavLink to="/infocus" onClick={handleClose}>INFOCUS</NavLink>
 
