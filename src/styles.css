@@ -44,7 +44,7 @@ body {
   font-size: 1.4rem;
 }
 
-a {
+.desktopNav a {
   font-size: 16px;
   color: var(--muted);
   text-decoration: none;
@@ -72,9 +72,6 @@ a {
   font-weight: 600;
 }
 
-.siteLogo{
-  padding: 0;
-}
 
 .brand {
   font-weight: 700;
@@ -168,7 +165,6 @@ a {
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid #22232a;
   text-align: center;
   color: var(--text);
   font-size: 16px;

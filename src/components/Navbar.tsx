@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header className="nav flex items-center justify-between sm:px-[20px] sm:py-4 lg:px-[60px] lg:py-4 2xl:px-[288px] 2xl:py-4 relative">
       {/* Logo */}
-      <a className="siteLogo" href="/">
+      <a className="siteLogo sm:max-lg:w-[40%] sm:max-lg:p-[10px]" href="/">
         <img src="/src/assets/logos/site-logo.png" alt="Site Logo" />
       </a>
 
@@ -31,7 +31,7 @@ export default function Navbar() {
       </button>
 
       {/* DESKTOP NAV */}
-      <nav className="hidden! lg:flex! gap-6 items-center">
+      <nav className="desktopNav hidden! lg:flex! gap-6 items-center">
         <NavLink to="/mainboard" end>MAIN BOARD</NavLink>
         <NavLink to="/infocus">INFOCUS</NavLink>
 
