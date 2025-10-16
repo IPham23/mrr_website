@@ -17,46 +17,46 @@ const Infocus = () => {
     {/*Infocus Main */}
     return(
         <>
-        <div className="w-full py-25">
-            <img className="ml-25 w-[250px]" src="/src/assets/infocus.png" alt="" />
+        <div className="w-full sm:py-5 md:py-25">
+            <img className="sm:ml-5 md:ml-25 w-[250px]" src="/src/assets/infocus.png" alt="" />
             {/*RUNWAY MODELS SECTION */}
-            <section className="flex flex-col items-center justify-center">
+            <section className="overflow-hidden flex flex-col items-center justify-center">
                 <h1 className="text-[40px] font-medium">Runway Models</h1>
-                <div className="flex flex-col gap-5 py-5 px-20">
+                <div className="sm:px-0 flex flex-col sm:gap-2 sm:w-[80%] md:gap-5 py-5 md:px-20 md:w-full">
                     {/*Row 1 */}
-                    <div className="lg:max-xl:pl-[100px] lg:max-xl:min-h-[250px] xl:max-xl:min-h-[300px] xl:max-xl:pl-[120px] pl-[140px] grid grid-cols-4 gap-5 min-h-[360px] justify-items-start">
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                    <div className=" sm:grid sm:grid-cols-2 sm:pl-0 sm:gap-2 sm:min-h[200px] md:max-xl:pl-[100px] lg:max-xl:min-h-[250px] xl:max-xl:min-h-[300px] xl:max-xl:pl-[120px] pl-[140px] md:grid md:grid-cols-4 gap-5 min-h-[360px] justify-items-start">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-1.png")}>
-                                <img className="block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
+                                <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
                                      src="./src/assets/Artboard-1.png" 
                                      alt="Model 1" 
                                 />
                             </div> 
                         </div>
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-2.png")}>
-                                    <img className="block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
+                                    <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
                                          src="./src/assets/Artboard-2.png" 
                                          alt="Model 2" 
                                     />
                             </div> 
                         </div>
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-3.png")}>
-                                    <img className="block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
+                                    <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
                                          src="./src/assets/Artboard-3.png" 
                                          alt="Model 3" 
                                     />
                             </div> 
                             
                         </div>
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-4.png")}>
-                                    <img className="block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
+                                    <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
                                          src="./src/assets/Artboard-4.png"
                                         alt="Model 4" 
                                     />
@@ -64,43 +64,43 @@ const Infocus = () => {
                         </div>
                     </div>
                     {/*Row 2 */}
-                    <div className="lg:max-xl:pr-[80px] lg:max-xl:min-h-[250px] xl:max-xl:min-h-[300px]  pr-[140px] grid grid-cols-4 gap-5 min-h-[360px] justify-items-start">
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                    <div className="sm:grid sm:grid-cols-2 sm:pr-0 sm:gap-2 md:max-xl:pr-[80px] lg:max-xl:min-h-[250px] xl:max-xl:min-h-[300px]  pr-[140px] md:grid md:grid-cols-4 gap-5 min-h-[360px] justify-items-start">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-5.png")}>
-                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
+                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
                                          src="./src/assets/Artboard-5.png" 
                                          alt="Model 5" 
                                     />
                             </div>                    
                         </div>
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-6.png")}>
-                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
+                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
                                          src="./src/assets/Artboard-6.png" 
                                          alt="Model 6" 
                                     />
                             </div>          
                         </div>
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:translate-x-[50%] sm:max-md:h-[220px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] relative overflow-hidden h-[360px] z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-7.png")}>
-                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] scale-[1.6] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
+                                    <img className="lg:max-xl:translate-y-[60px] block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
                                          src="./src/assets/Artboard-7.png" 
                                          alt="Model 7" 
                                     />  
                             </div> 
                         </div>
                         {/*Contact Us tile*/}
-                        <div className="lg:max-xl:h-[250px] xl:max-xl:h-[300px] lg:max-xl:max-w-[280px] lg:max-xl:ml-[20px] relative bg-[var(--bg)] text-[var(--text)] flex flex-col justify-center items-center p-5 gap-[30px] ml-10 mr-[-140px]">
-                            <p className="lg:max-xl:text-xl text-3xl mb-5">Become part of a vibrant community celebrating youth, talent, and fashion.</p>
-                            <div className="w-[350px]">
-                                <div className="flex justify-end group">
+                        <div className=" sm:max-md:col-span-2 sm:max-md:mx-[-40px] lg:max-xl:h-[250px] xl:max-xl:h-[300px] lg:max-xl:max-w-[280px] lg:max-xl:ml-[20px] relative bg-[var(--bg)] text-[var(--text)] flex flex-col justify-center items-center p-5 gap-[30px] md:ml-10 md:mr-[-140px]">
+                            <p className="sm:max-md:text-center sm:text-[22px] lg:max-xl:text-xl text-3xl mb-5">Become part of a vibrant community celebrating youth, talent, and fashion.</p>
+                            <div className="max-w-[350px]">
+                                <div className="sm:max-md:pl-[50px] flex justify-end group">
                                     <a className="flex justify-end group" href="http://localhost:5173/contact">
-                                        <button className="lg:max-xl:text-[1rem] relative bg-[var(--bg)] text-[var(--text)] border-solid border-3 rounded-[26px] px-6 py-3 text-[1.8rem] 
+                                        <button className="sm:max-md:text-[0.8rem] lg:max-xl:text-[1rem] relative bg-[var(--bg)] text-[var(--text)] border-solid border-3 rounded-[26px] px-6 py-3 text-[1.8rem] 
                                                         cursor-pointer overflow-hidden transition-colors duration-400 ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-[var(--text)] before:z-0 before:transition-all before:duration-400 before:ease-in-out hover:before:w-full">
-                                            <span className="lg:max-xl:text-xl relative text-3xl tracking-wider z-[1] group-hover:text-[var(--bg)] transition-colors duration-400 ease-in-out">Contact Us</span>
+                                            <span className="sm:max-md:text-[18px] lg:max-xl:text-xl relative text-3xl tracking-wider z-[1] group-hover:text-[var(--bg)] transition-colors duration-400 ease-in-out">Contact Us</span>
                                         </button>
                                         <img className="translate-x-[-30px] h-[50px] w-[50px] opacity-0 transition-all duration-400 ease-in-out group-hover: group-hover:translate-y-[-40px] group-hover:translate-x-0 group-hover:opacity-100" 
                                             src="./src/assets/Icon-weather-stars.svg" 
