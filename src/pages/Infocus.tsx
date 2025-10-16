@@ -114,10 +114,10 @@ const Infocus = () => {
                 </div>
             </section>
             {/*PERFORMERS SECTION */}
-            <section className="sm:max-lg:px-[20px] flex flex-col items-center justify-center pb-25">
-                <h1 className="sm:max-md:py-[40px] text-[40px] font-medium py-[100px]">Performers</h1>
+            <section className="sm:max-lg:px-[20px] md:max-lg:px-[60px] flex flex-col items-center justify-center pb-25">
+                <h1 className="sm:max-lg:py-[40px] text-[40px] font-medium py-[100px]">Performers</h1>
                 <p className="sm:max-md:text-[18px] md:text-xl pb-[60px] text-center">Showcase your talents and be known. Here are our Model / Performers from The Voice Kids.</p>
-                <div className="sm:max-lg:px-0 sm:max-md:gap-[10px] sm:max-md:grid sm:max-md:grid-cols-2 lg:max-xl:px-[150px] xl:max-2xl:px-[200px] flex gap-[90px] px-[288px] w-full justify-between">
+                <div className="sm:max-lg:px-0 sm:max-md:gap-[10px] sm:max-md:grid sm:max-md:grid-cols-2 md:max-lg:gap-[60px] lg:max-xl:px-[150px] xl:max-2xl:px-[200px] flex gap-[90px] px-[288px] w-full justify-between">
                     <div
                         className="sm:max-md:hidden performersImageWrapper cursor-pointer"
                         onClick={() => openLightbox("./src/assets/Performer-1.jpg")}>
@@ -158,11 +158,11 @@ const Infocus = () => {
                 </div>
             </section>
             {/*EVENTS SECTION */}
-            <section className="sm:max-md:px-[5px] sm:max-md:pb-[5px] lg:max-xl:px-[100px] flex flex-col items-center justify-center pb-25 px-40 bg-[#cfcfcf]">
+            <section className="sm:max-md:px-[5px] sm:max-md:pb-[5px] md:max-lg:px-[80px] md:max-lg:pb-[60px] lg:max-xl:px-[100px] flex flex-col items-center justify-center pb-25 px-40 bg-[#cfcfcf]">
                 <h1 className="text-[40px] font-medium pt-[20px]">Events</h1>
                 <p className="sm:max-md:pb-[20px] text-xl pb-[60px] text-center">Here’s a sneak peek at our international stage.</p>
                 {/*Desktop Events */}
-                <div className="sm:max-md:hidden lg:max-xl:gap-[60px] grid grid-cols-3 gap-30">
+                <div className="sm:max-md:hidden md:max-xl:gap-x-[60px] md:max-xl:gap-y-[80px] grid grid-cols-3 gap-30">
                     <div className="eventImageWrapper">
                         <img src="./src/assets/Event-1.png" alt="Event 1" />
                     </div>
