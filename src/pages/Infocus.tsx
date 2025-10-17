@@ -24,8 +24,8 @@ const Infocus = () => {
                 <h1 className="text-[40px] font-medium">Runway Models</h1>
                 <div className="sm:px-0 flex flex-col sm:gap-2 sm:w-[80%] md:max-xl:px-5 xl:gap-5 py-5 lg:px-20 md:w-full">
                     {/*Row 1 */}
-                    <div className=" sm:grid sm:grid-cols-2 sm:pl-0 sm:gap-2 md:max-lg:pl-[10vw] md:max-lg:pr-[5vw] lg:max-xl:pl-[95px] md:max-lg:min-h-[150px] lg:max-xl:min-h-[250px] xl:max-2xl:min-h-[300px] xl:max-2xl:pl-[120px] pl-[140px] md:grid md:grid-cols-4 gap-5 justify-items-start">
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                    <div className=" sm:grid sm:grid-cols-2 sm:pl-0 sm:gap-2 md:max-lg:pl-[10vw] md:max-lg:pr-[5vw] lg:max-xl:pl-[95px] md:max-lg:min-h-[150px] lg:max-xl:min-h-[250px] xl:max-2xl:min-h-[400px] xl:max-2xl:pl-[155px] md:grid md:grid-cols-4 xl:gap-5 justify-items-start">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-1.png")}>
                                 <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
@@ -34,7 +34,7 @@ const Infocus = () => {
                                 />
                             </div> 
                         </div>
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-2.png")}>
                                     <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
@@ -43,7 +43,7 @@ const Infocus = () => {
                                     />
                             </div> 
                         </div>
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-3.png")}>
                                     <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]" 
@@ -53,7 +53,7 @@ const Infocus = () => {
                             </div> 
                             
                         </div>
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-4.png")}>
                                     <img className="block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[80px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
@@ -64,8 +64,8 @@ const Infocus = () => {
                         </div>
                     </div>
                     {/*Row 2 */}
-                    <div className="sm:grid sm:grid-cols-2 sm:pr-0 sm:gap-2 md:max-lg:pl-[2.5vw] md:max-lg:pr-[12.5vw] lg:max-xl:pr-[95px] lg:max-xl:min-h-[250px] xl:max-2xl:min-h-[300px]  pr-[140px] md:grid md:grid-cols-4 gap-5 justify-items-start">
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                    <div className="sm:grid sm:grid-cols-2 sm:pr-0 sm:gap-2 md:max-lg:pl-[2.5vw] md:max-lg:pr-[12.5vw] lg:max-xl:pr-[95px] lg:max-xl:min-h-[250px] xl:max-2xl:min-h-[400px] xl:max-2xl:pr-[150px] md:grid md:grid-cols-4 xl:gap-5 justify-items-start">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-5.png")}>
                                     <img className=" block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] :translate-y-[50px] xl:translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
@@ -74,7 +74,7 @@ const Infocus = () => {
                                     />
                             </div>                    
                         </div>
-                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                        <div className="sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-6.png")}>
                                     <img className=" block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
@@ -83,7 +83,7 @@ const Infocus = () => {
                                     />
                             </div>          
                         </div>
-                        <div className="sm:max-md:translate-x-[50%] sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[300px] relative overflow-hidden  z-1 skew-x-[-20deg]">
+                        <div className="sm:max-md:translate-x-[50%] sm:max-lg:h-auto lg:max-xl:h-[250px] xl:max-2xl:h-[400px] relative overflow-hidden  z-1 skew-x-[-20deg]">
                             <div className="performersImageWrapper cursor-pointer"
                                  onClick={() => openLightbox("./src/assets/Artboard-7.png")}>
                                     <img className=" block w-full h-auto object-cover skew-x-[20deg] sm:scale-[1.7] md:scale-[1.6] sm:translate-y-[50px] md:translate-y-[40px] xl:translate-y-[70px] transition-all duration-400 ease-in-out hover:translate-x-[-10px]"
@@ -93,8 +93,8 @@ const Infocus = () => {
                             </div> 
                         </div>
                         {/*Contact Us tile*/}
-                        <div className=" sm:max-md:col-span-2 sm:max-md:mx-[-40px] md:max-lg:ml-[20px] md:max-lg:mr-[-60px] md:max-xl:p-0 lg:max-xl:ml-[40px] md:max-lg:min-h-[150px] lg:max-xl:h-[250px] xl:max-2xl:h-[300px] lg:max-xl:max-w-[280px] relative bg-[var(--bg)] text-[var(--text)] flex flex-col justify-center items-center p-5 gap-[30px] lg:ml-10 lg:mr-[-140px]">
-                            <p className="sm:max-md:text-center sm:text-[22px] md:max-lg:text-[1rem] md:max-lg:mb-0 lg:max-xl:text-xl text-3xl mb-5">Become part of a vibrant community celebrating youth, talent, and fashion.</p>
+                        <div className=" sm:max-md:col-span-2 sm:max-md:mx-[-40px] md:max-lg:ml-[20px] md:max-lg:mr-[-60px] md:max-xl:p-0 lg:max-xl:ml-[40px] md:max-lg:min-h-[150px] lg:max-xl:h-[250px] xl:max-2xl:h-[400px] lg:max-xl:max-w-[280px] relative bg-[var(--bg)] text-[var(--text)] flex flex-col justify-center items-center xl:p-5 gap-[30px] lg:ml-10 lg:mr-[-140px]">
+                            <p className="sm:max-md:text-center sm:text-[22px] md:max-lg:text-[1rem] md:max-lg:mb-0 lg:max-xl:text-xl xl:text-3xl xl:mb-5">Become part of a vibrant community celebrating youth, talent, and fashion.</p>
                             <div className="max-w-[350px]">
                                 <div className="sm:max-md:pl-[50px] flex justify-end group">
                                     <a className="flex justify-end group" href="http://localhost:5173/contact">
