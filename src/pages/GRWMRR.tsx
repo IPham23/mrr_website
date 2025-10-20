@@ -1,5 +1,3 @@
-
-
 import grwmrr1 from "../assets/grwmrr1.png";
 import grwmrr2 from "../assets/grwmrr2.png";
 import grwmrr3 from "../assets/grwmrr3.png";
@@ -26,24 +24,23 @@ const GRWMRR: React.FC = () => {
   return (
     <div className="overflow-x-hidden">
       {/* ----------------- */}
-      {/* First Section */}
-      {/* ----------------- */}
-      <div className="w-full my-8">
-        <div className="max-w-[40%] mx-auto">
-          <img
-            src="/src/assets/mrr.png"
-            alt="mrr"
-            className="w-full h-auto block"
-          />
-        </div>
-      </div>
+{/* First Section */}
+{/* ----------------- */}
+<div className="w-full my-8">
+  <div className="flex justify-start px-8 max-md:justify-center">
+    <img
+      src="/src/assets/mrr.png"
+      alt="Get Ready with MRR"
+      className="w-[40%] h-auto block max-md:w-[70%]"
+    />
+  </div>
+</div>
 
       <div className="bg-white max-w-[1200px] mx-auto px-8 py-16 text-center">
         <h2 className="text-xl text-gray-600 mb-8 font-medium">
           Rehearsals & Coaching Sessions
         </h2>
 
-        {/* Flexbox layout for first image section */}
         <div className="flex flex-wrap justify-center items-center gap-12">
           {images.map((img, index) => (
             <div
@@ -76,7 +73,6 @@ const GRWMRR: React.FC = () => {
                 {group.caption}
               </div>
 
-              {/* Flexbox layout for image groups */}
               <div className="flex flex-wrap justify-center items-start gap-20 mb-16">
                 {group.imgs.map((img, i) => (
                   <div
@@ -97,19 +93,38 @@ const GRWMRR: React.FC = () => {
       </div>
 
       {/* ----------------- */}
-      {/* Hero Section */}
+      {/* Hero Section with transparent → color-fill button */}
       {/* ----------------- */}
-      <section className="text-center py-12 px-8">
+      <section className="text-center py-20 px-8 bg-white">
         <p className="text-3xl text-gray-700 mb-4 font-serif">
           Manila Runway Republic is where your journey begins.
         </p>
-        <p className="text-3xl text-gray-700 mb-8 font-serif">
+        <p className="text-3xl text-gray-700 mb-12 font-serif">
           Join us as we celebrate youth, talent, and fashion.
         </p>
 
-        <button className="bg-gray-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-gray-900">
-          Contact Us
-        </button>
+        <div className="flex justify-center group relative">
+          <a
+            className="flex justify-end group"
+            href="http://localhost:5173/contact"
+          >
+            <button
+              className="relative border-2 border-gray-700 text-gray-700 bg-transparent rounded-[26px] px-8 py-3 text-xl md:text-2xl font-semibold cursor-pointer overflow-hidden transition-colors duration-400 ease-in-out 
+              before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-gray-700 before:z-0 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full"
+            >
+              <span className="relative z-[1] tracking-wider transition-colors duration-400 ease-in-out group-hover:text-white">
+                Contact Us
+              </span>
+            </button>
+
+            {/* Floating star icon */}
+            <img
+              className="translate-x-[-30px] h-[50px] w-[50px] opacity-0 transition-all duration-400 ease-in-out group-hover:translate-y-[-40px] group-hover:translate-x-0 group-hover:opacity-100"
+              src="/src/assets/Icon-weather-stars.svg"
+              alt="Stars icon"
+            />
+          </a>
+        </div>
       </section>
     </div>
   );
