@@ -11,14 +11,14 @@ const Kids = () => {
       {/* Models Grid */}
       <div className="flex flex-col gap-12 px-24 mt-12 max-lg:px-10 max-md:px-6">
         {/* Row 1 */}
-        <div className="flex flex-wrap justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3">
+        <div className="flex flex-wrap justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3 max-sm:justify-items-center">
           {["1", "2", "3", "4"].map((n) => (
             <div
               key={n}
               className="relative w-[340px] h-[360px] overflow-hidden cursor-pointer transform skew-x-[-20deg]
                          max-lg:w-[300px] max-lg:h-[320px]
                          max-md:w-[240px] max-md:h-[280px]
-                         max-sm:w-full max-sm:h-[180px]"
+                         max-sm:w-[100%] max-sm:h-[180px]"
             >
               <img
                 src={`/src/assets/Artboard ${n}.png`}
@@ -32,14 +32,14 @@ const Kids = () => {
         </div>
 
         {/* Row 2 */}
-        <div className="flex flex-wrap justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3">
+        <div className="flex flex-wrap justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3 max-sm:justify-items-center">
           {["5", "14", "16", "17"].map((n) => (
             <div
               key={n}
               className="relative w-[340px] h-[360px] overflow-hidden cursor-pointer transform skew-x-[-20deg]
                          max-lg:w-[300px] max-lg:h-[320px]
                          max-md:w-[240px] max-md:h-[280px]
-                         max-sm:w-full max-sm:h-[180px]"
+                         max-sm:w-[100%] max-sm:h-[180px]"
             >
               <img
                 src={`/src/assets/Artboard ${n}.png`}
@@ -53,14 +53,14 @@ const Kids = () => {
         </div>
 
         {/* Row 3 (2 centered images) */}
-        <div className="flex justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3">
+        <div className="flex justify-center gap-7 max-sm:grid max-sm:grid-cols-2 max-sm:gap-3 max-sm:justify-items-center">
           {["20", "15"].map((n) => (
             <div
               key={n}
               className="relative w-[340px] h-[360px] overflow-hidden cursor-pointer transform skew-x-[-20deg]
                          max-lg:w-[300px] max-lg:h-[320px]
                          max-md:w-[240px] max-md:h-[280px]
-                         max-sm:w-full max-sm:h-[180px]"
+                         max-sm:w-[100%] max-sm:h-[180px]"
             >
               <img
                 src={`/src/assets/Artboard ${n}.png`}
