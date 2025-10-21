@@ -73,7 +73,7 @@ export default function Navbar() {
                onClick={handleClose}
           ></div>
           {/* Right menu panel */}
-          <div className={`flex flex-col gap-8 fixed top-0 right-0 h-full w-[70%] bg-[#d5d5d5] sm:p-10 sm:pt-20 md:pt-20 md:p-16 shadow-lg  
+          <div className={`flex flex-col gap-10 fixed top-0 right-0 h-full w-[70%] bg-[#d5d5d5] sm:p-10 sm:pt-20 md:pt-20 md:p-16 shadow-lg  
           ${isAnimatingOut ? "animate-slide-out" : "animate-slide-in"}`}
           >
             {/* Close button */}
