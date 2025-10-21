@@ -1,28 +1,23 @@
 import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../styles.css";
 
 export default function Navbar() {
   const [isModelsOpen, setIsModelsOpen] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
-  const [animateMenu, setAnimateMenu] = useState(false);
+  const [isAnimatingOut, setIsAnimatingOut] = useState(false);
 
 
   //close both menu and dropdown
   const handleClose = () => {
-        setAnimateMenu(false); // trigger slide-out
+    setIsAnimatingOut(true);
     setTimeout(() => {
       setIsMobileOpen(false);
       setIsModelsOpen(false);
+      setIsAnimatingOut(false);
     }, 500);
   };
 
-  useEffect(() => {
-    if (isMobileOpen || isModelsOpen) {
-      // start slide-in when opened
-      setAnimateMenu(true);
-    }
-  }, [isMobileOpen, isModelsOpen]);
 
   return (
     <header className="nav flex items-center justify-between sm:px-[20px] sm:py-4 md:px-20 md:pt-10 lg:px-[60px] lg:py-4 2xl:px-[288px] 2xl:py-10 relative">
@@ -74,13 +69,17 @@ export default function Navbar() {
       {isMobileOpen && (
         <div className="lg:hidden fixed top-0 right-0 h-full w-full flex z-[9999]">
           {/* Left silhouette section */}
-          <div className="relative w-[100%] bg-cover bg-center bg-black filter opacity-50" onClick={handleClose}></div>
+          <div className="relative w-[100%] bg-cover bg-center bg-black filter opacity-50" 
+               onClick={handleClose}
+          ></div>
           {/* Right menu panel */}
           <div className={`flex flex-col gap-8 fixed top-0 right-0 h-full w-[70%] bg-[#d5d5d5] sm:p-10 sm:pt-20 md:pt-20 md:p-16 shadow-lg  
-          ${animateMenu ? "animate-slide-in" : "animate-slide-out"}`}
+          ${isAnimatingOut ? "animate-slide-out" : "animate-slide-in"}`}
           >
             {/* Close button */}
-            <button className="absolute top-6 right-6 text-4xl" onClick={handleClose}>×</button>
+            <button className="absolute top-6 right-6 text-4xl" 
+                    onClick={handleClose}>×
+            </button>
             <NavLink to="/mainboard"  className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" end onClick={handleClose}>MAIN BOARD</NavLink>
             <NavLink to="/infocus"  className="sm:text-[16px] md:text-[20px] font-semibold 2xl:text-[24px]" onClick={handleClose}>INFOCUS</NavLink>
 
