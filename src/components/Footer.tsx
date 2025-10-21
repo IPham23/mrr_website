@@ -3,9 +3,9 @@ export default function Footer() {
     return (
         <footer className="footer sm:max-md:flex! sm:max-md:flex-col! sm:px-[20px] sm:py-4 lg:px-[60px] lg:py-4  2xl:px-[180px] 2xl:py-4">
             <section className="footerDetails sm:items-center sm:pb-10 md:pb-0 md:items-start">
-                <p className="sm:pt-10 md:pt-0 text-[14px] xl:text-[24px]">MANILA RUNWAY REPUBLIC {new Date().getFullYear()}</p>
-                <p className="sm:pb-10 md:pb-0 text-[14px] xl:text-[24px]">MANILA, PHILIPPINES</p>
-                <p className="sm:hidden md:block text-[14px] xl:text-[24px]">ALL RIGHTS RESERVED</p>
+                <p className="sm:pt-10 md:pt-0 text-[14px] xl:text-[20px] 2xl:text-[24px]">MANILA RUNWAY REPUBLIC {new Date().getFullYear()}</p>
+                <p className="sm:pb-10 md:pb-0 text-[14px] xl:text-[20px] 2xl:text-[24px]">MANILA, PHILIPPINES</p>
+                <p className="sm:hidden md:block text-[14px] xl:text-[20px] 2xl:text-[24px]">ALL RIGHTS RESERVED</p>
                 {/*Mobile */}
                 <p className="sm:block md:hidden">models@manilarunwayrepublic.com</p>
                 <p className="sm:block md:hidden">kathy@manilarunwayrepublic.com</p>
@@ -16,8 +16,8 @@ export default function Footer() {
                 <div><a href="https://www.tiktok.com/@manilarunwayrepublic" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" strokeWidth="2" className="ai ai-TiktokFill"><path d="M19.321 5.562a5.124 5.124 0 0 1-.443-.258 6.228 6.228 0 0 1-1.137-.966c-.849-.971-1.166-1.956-1.282-2.645h.004c-.097-.573-.057-.943-.05-.943h-3.865v14.943c0 .2 0 .399-.008.595 0 .024-.003.046-.004.073 0 .01 0 .022-.003.033v.009a3.28 3.28 0 0 1-1.65 2.604 3.226 3.226 0 0 1-1.6.422c-1.8 0-3.26-1.468-3.26-3.281 0-1.814 1.46-3.282 3.26-3.282.341 0 .68.054 1.004.16l.005-3.936A7.178 7.178 0 0 0 4.76 10.71a7.583 7.583 0 0 0-1.655 2.04c-.163.281-.779 1.412-.853 3.246-.047 1.04.266 2.12.415 2.565v.01c.093.262.457 1.158 1.049 1.913a7.856 7.856 0 0 0 1.674 1.58v-.01l.009.01c1.87 1.27 3.945 1.187 3.945 1.187.359-.015 1.562 0 2.928-.647 1.515-.718 2.377-1.787 2.377-1.787a7.43 7.43 0 0 0 1.296-2.153c.35-.92.466-2.022.466-2.462V8.273c.047.028.672.441.672.441s.9.577 2.303.952c1.006.267 2.363.324 2.363.324V6.153c-.475.052-1.44-.098-2.429-.59z"/></svg></a></div>
             </section>
             <section className="footerContact sm:items-center md:items-end">
-                <p className="sm:hidden md:block text-[14px] xl:text-[24px]">models@manilarunwayrepublic.com</p>
-                <p className="sm:hidden md:block text-[14px] xl:text-[24px]">kathy@manilarunwayrepublic.com</p>
+                <p className="sm:hidden md:block text-[14px] xl:text-[20px] 2xl:text-[24px]">models@manilarunwayrepublic.com</p>
+                <p className="sm:hidden md:block text-[14px] xl:text-[20px] 2xl:text-[24px]">kathy@manilarunwayrepublic.com</p>
                 {/*Mobile */}
                 <p className="sm:block md:hidden">ALL RIGHTS RESERVED</p>
             </section>
