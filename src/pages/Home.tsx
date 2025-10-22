@@ -20,7 +20,7 @@ const Home = () => {
         {/*Texts */}
         <section className="sm:max-md:mt-[-10%] sm:max-md:pt-0 sm:max-md:w-[100%] sm:max-md:mx-0 md:max-lg:w-full md:max-lg:ml-0 md:max-lg:px-[20px] lg:max-xl:mx-[0px] lg:max-xl:ml-[20px] xl:max-xl:ml-[144px] lg:max-xl:text-lg w-1/2 mx-[210px] pt-20">
           <img className="sm:max-md:w-[50%] sm:max-md:ml-auto" src="/src/assets/MANILA.png" alt="Manila" />
-          <p className="sm:max-md:px-0 md:max-lg:px-0 md:max-lg:w-[500px] sm:max-lg:text-[20px] md:max-lg:m-auto lg:max-xl:px-0 xl:max-xl:px-25 lg:max-xl:ml-20 px-30 py-10 text-center">
+          <p className="sm:max-md:px-0 md:max-lg:px-0 md:max-lg:w-[600px] sm:max-lg:text-[20px] md:max-lg:m-auto lg:max-xl:px-0 xl:max-xl:px-25 lg:max-xl:ml-20 px-30 py-10 text-center">
             Welcome to Manila Runway Republic, the ultimate destination for
             young fashion enthusiasts! We are dedicated to nurturing the talents
             of aspiring models and creating high-quality events for kids and
