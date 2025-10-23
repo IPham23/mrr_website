@@ -1,9 +1,11 @@
-const Models = () => {
-  // Create rows based on screen size
-  const createRows = (items, itemsPerRow) => {
-    return items.reduce((rows, key, i) => {
+import React from "react";
+
+const Models: React.FC = () => {
+  // Explicitly type parameters
+  const createRows = <T,>(items: T[], itemsPerRow: number): T[][] => {
+    return items.reduce<T[][]>((rows, item, i) => {
       if (i % itemsPerRow === 0) rows.push([]);
-      rows[rows.length - 1].push(key);
+      rows[rows.length - 1].push(item);
       return rows;
     }, []);
   };
@@ -18,6 +20,7 @@ const Models = () => {
         src="/src/assets/models.png"
         alt="Manila Runway Republic"
       />
+
       {/* Text section */}
       <section className="flex flex-col items-center text-center mt-10">
         <h1 className="text-4xl font-medium mb-4 max-md:text-3xl max-sm:text-2xl">
@@ -29,7 +32,7 @@ const Models = () => {
           start. Join us and be a part of a vibrant community that celebrates youth, talent, and
           fashion.
         </h2>
-        
+
         {/* Desktop/Tablet Grid - 4 per row (hidden on screens < 640px) */}
         <div className="sm:flex flex-col gap-12 px-24 lg:max-2xl:px-0 mt-12 max-lg:px-10 max-md:px-6 hidden">
           {createRows(modelNumbers, 4).map((row, i) => (
