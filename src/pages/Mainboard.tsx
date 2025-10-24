@@ -8,7 +8,7 @@ const Mainboard = () => {
             <section className="sm:overflow-x-auto sm:ml-0 md:overflow-x-visible  gap-0! justify-center!">
                 <div className="relative sm:flex-nowrap sm:max-md:overflow-x-auto flex flex-row md:min-w-[100%] md:px-10 md:justify-center gap-0
                 sm:[&::-webkit-scrollbar]:hidden sm:[-ms-overflow-style:none] sm:[scrollbar-width:none]">
-                    <button className="sm:max-md:flex sm:max-md:relative sm:ml-5 left-0 md:ml-[3vw] absolute text-5xl border-none bg-transparent font-extrabold mt-[20px] cursor-pointer z-[1000]"><a href="http://localhost:5173/models/kids">KIDS</a></button>
+                    <button className="sm:max-md:flex sm:max-md:relative sm:ml-5 left-0 md:ml-[3vw] absolute text-5xl border-none bg-transparent font-extrabold mt-[20px] cursor-pointer z-[1000]"><a href="https://manilarunwayrepublic.com/models/kids">KIDS</a></button>
                     {/* Kids Text Left */}
                     <div className="md:justify-end sm:w-[100px] sm:max-md:ml-[-200px] sm:flex-shrink-0 sm:h-[300px] md:w-[10%] md:max-lg:pb-[5%] md:max-lg:h-[250px] lg:max-xl:h-[400px] xl:h-[600px] 2xl:h-[700px] grid grid-rows-6 h-[400px]  z-[-1]">
                         <img className="sm:w-20 sm:max-md:translate-x-[60px] md:max-lg:translate-x-[0px] lg:max-xl:w-25 lg:max-xl:translate-x-[10px] xl:w-40 xl:translate-x-[40px]" src="./src/assets/kidsText.png" alt="" />
@@ -65,7 +65,7 @@ const Mainboard = () => {
             <section className="sm:overflow-x-auto sm:ml-0 md:overflow-x-visible mt-[-50px]  gap-0! justify-center!">
                 <div className="relative sm:flex-nowrap sm:max-md:overflow-x-auto flex flex-row md:min-w-[100%] md:px-10 md:justify-center gap-0
                 sm:[&::-webkit-scrollbar]:hidden sm:[-ms-overflow-style:none] sm:[scrollbar-width:none]">
-                    <button className="sm:max-md:flex sm:max-md:relative sm:ml-5 left-0 md:ml-[3vw] absolute text-5xl border-none bg-transparent font-extrabold mt-[70px] cursor-pointer z-[1000]"><a href="http://localhost:5173/models/teens">TEENS</a></button>
+                    <button className="sm:max-md:flex sm:max-md:relative sm:ml-5 left-0 md:ml-[3vw] absolute text-5xl border-none bg-transparent font-extrabold mt-[70px] cursor-pointer z-[1000]"><a href="https://manilarunwayrepublic.com/models/teens">TEENS</a></button>
                     {/* Teens Text Left */}
                     <div className="md:justify-end sm:w-[100px] sm:flex-shrink-0 md:w-[10%] sm:max-md:ml-[-200px] sm:h-[300px] md:max-lg:h-[250px] lg:max-xl:h-[400px] xl:h-[600px] 2xl:h-[700px] pt-[50px] grid grid-rows-6 h-[400px]  z-[-1]">
                         <img className="sm:w-25 sm:max-md:translate-x-[20px] md:max-lg:translate-x-[0px] lg:max-xl:w-25 xl:w-35 lg:max-xl:translate-x-[0px] w-45 xl:translate-x-[-10px]" src="./src/assets/teensText.png" alt="" />
