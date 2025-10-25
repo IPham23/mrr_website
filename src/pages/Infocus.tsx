@@ -97,7 +97,7 @@ const Infocus = () => {
                             <p className="sm:max-md:text-center sm:text-[22px] md:max-lg:text-[1rem] md:max-lg:mb-0 lg:max-xl:text-xl xl:text-3xl 2xl:text-5xl 2xl:leading-normal xl:mb-5">Become part of a vibrant community celebrating youth, talent, and fashion.</p>
                             <div className="max-w-[350px]">
                                 <div className="sm:max-md:pl-[50px] flex justify-end group">
-                                    <a className="flex justify-end group" href="http://localhost:5173/contact">
+                                    <a className="flex justify-end group" href="https://manilarunwayrepublic.com/contact">
                                         <button className="sm:max-lg:text-[0.8rem] lg:max-xl:text-[1rem] relative bg-[var(--bg)] text-[var(--text)] border-solid border-3 rounded-[26px] sm:max-lg:py-0 md:max-lg:px-2 px-6 py-3 text-[1.8rem] 
                                                         cursor-pointer overflow-hidden transition-colors duration-400 ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-[var(--text)] before:z-0 before:transition-all before:duration-400 before:ease-in-out hover:before:w-full">
                                             <span className="sm:max-lg:text-[18px] lg:max-xl:text-xl relative text-3xl tracking-wider z-[1] group-hover:text-[var(--bg)] transition-colors duration-400 ease-in-out">Contact Us</span>
